@@ -1,0 +1,31 @@
+GET /anything?page=1 HTTP/1.1
+Host: httpbin.org
+Accept: text/html
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Thu, 28 Feb 2019 17:28:02 GMT
+Server: nginx
+Content-Length: 288
+Connection: keep-alive
+
+{
+  "args": {
+    "page": "1"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "text/html", 
+    "Host": "httpbin.org"
+  }, 
+  "json": null, 
+  "method": "GET", 
+  "origin": "193.58.255.23, 193.58.255.23", 
+  "url": "https://httpbin.org/anything?page=1"
+}
+
+
